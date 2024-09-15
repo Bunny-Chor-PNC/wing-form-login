@@ -1,0 +1,67 @@
+img{
+    width: 230px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+body{
+    background-color: #2ad300;
+}
+
+.container{
+    width: 30%;
+    margin: 0 auto;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    border-radius: 20px;
+    font-family: sans-serif;
+}
+
+span{
+    font-weight: bold;
+    font-size: xx-large;
+    color: blue;
+}
+
+h2{
+    color: rgb(124, 122, 122);
+    padding: 0px;
+}
+
+.card, p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+input[type="text"],
+input[type="password"]{
+    width: 80%;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 5px;
+    border: 1px solid rgba(122, 122, 120, 0.329);
+    background-color: rgba(180, 181, 182, 0.247);
+}
+
+button{
+    width: 86%;
+    padding: 10PX;
+    border: none;
+    background-color: blue;
+    font-weight: bold;
+    color: white;
+    margin: 0 auto;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+h5{
+    font-weight: bold;
+    color: blue;
+}
